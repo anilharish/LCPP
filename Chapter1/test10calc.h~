@@ -1,0 +1,9 @@
+#ifndef TEST10CALC_H
+#define TEST10CALC_H
+
+int userinput(int x);
+int userinputop();
+float calculate(int x, int y, int z);
+void useroutput(float x);
+
+#endif

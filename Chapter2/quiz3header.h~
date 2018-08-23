@@ -1,0 +1,8 @@
+#ifndef QUIZ3HEADER_H
+#define QUIZ3HEADER_H
+
+double heightinput();
+double objectdistance();
+double printdistance();
+
+#endif
