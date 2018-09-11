@@ -7,7 +7,18 @@ int main ()
 {
   int input{0};
   input=userinput();
-  printoutput(input);
+  if (input==1)
+    {
+      std::cout << "The number 1 is neither even or odd\n";
+    }
+  else if (input==0)
+    {
+      std::cout <<"Invalid input\n";
+    }
+   else
+    {
+      printoutput(input);
+    }
   return 0;
 }
 
